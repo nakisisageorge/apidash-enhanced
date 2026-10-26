@@ -1,0 +1,23 @@
+name: apidash_african_apis
+description: Pre-built African API collections for mobile money, fintech, logistics, and banking
+version: 0.1.0
+homepage: https://github.com/nakisisageorge/apidash-enhanced
+repository: https://github.com/nakisisageorge/apidash-enhanced
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apidash_core: any
+  better_networking: any
+  yaml: ^3.1.0
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.25.0

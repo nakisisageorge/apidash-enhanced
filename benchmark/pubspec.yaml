@@ -1,0 +1,30 @@
+name: apidash_benchmark
+description: Benchmark suite with regression detection for API Dash
+version: 0.1.0
+homepage: https://github.com/nakisisageorge/apidash-enhanced
+repository: https://github.com/nakisisageorge/apidash-enhanced
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apidash_core: any
+  better_networking: any
+  genai: any
+  curl_parser: any
+  http: ^1.2.0
+  benchmark_harness: ^2.2.0
+  json_annotation: ^4.8.0
+  yaml: ^3.1.0
+  path: ^1.8.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+  test: ^1.25.0
